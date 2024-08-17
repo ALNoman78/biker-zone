@@ -1,8 +1,8 @@
-// postcss.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-    plugins: {
-      'postcss-import': {},
-      tailwindcss: {},
-      autoprefixer: {},
-    }
+    content: ["./src/**/*.{html,js}"],
+    theme: {
+      extend: {},
+    },
+    plugins: [],
   }
