@@ -24,7 +24,7 @@
     <header class="bg-[#264653]">
         <nav
             class="flex max-w-screen-2xl  text-white mx-auto  items-center md:justify-end justify-center pl-5 p-5 gap-6">
-            <ul class=" flex items-center justify-between p-5 md:gap-6  text-xl font-medium sm:hidden md:flex">
+            <ul class=" flex items-center justify-between p-5 md:gap-6  text-xl font-medium md:flex hidden">
                 <li>Home</li>
                 <li>Shop</li>
                 <li>News</li>
@@ -41,7 +41,7 @@
                         est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation
                         veniam consequat sunt nostrud amet.</p>
                     <button
-                        class="text-xl font-semibold bg-[#E76F51] py-3 px-10 text-white rounded-lg">Purchase</button>
+                        class="text-xl font-semibold bg-[#E76F51] py-3 px-10 text-white rounded-lg hover:bg-transparent hover:border-2 border-solid border-[#E76F51]">Purchase</button>
                 </div>
                 <div class="pb-20">
                     <img class="mt-16" src="./images/others/banner-profile.png" alt="">
@@ -100,7 +100,7 @@
             <div class="mb-24">
                 <h3 class="text-5xl text-center font-bold">Happy <span class="text-[#E76F51]">Clients says</span></h3>
             </div>
-            <div class="mx-auto grid grid-cols-3 gap-5">
+            <div class="mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
                 <div class="p-10 shadow-lg flex flex-col items-center justify-center rounded-lg">
                     <img class="w-36" src="./images/others/user-1.png" alt="">
                     <p class="text-center text-xl font-normal py-4">
@@ -189,14 +189,14 @@
         </section>
     </main>
     <footer class="bg-black">
-        <section class="footer-container md:w-4/5 mx-auto mt-40 md:flex items-center md:justify-between justify-around">
+        <section class="footer-container md:w-4/5 mx-auto mt-40 flex items-center md:justify-between justify-around">
             <div>
-                <div class="flex text-white gap-10 py-4 cursor-pointer">
+                <div class="flex text-white gap-10 py-4 cursor-pointer mx-4">
                     <p>Download Now</p>
                     <p>License</p>
                 </div>
                 <div>
-                    <ul class="list-none md:flex text-white  pb-5 cursor-pointer">
+                    <ul class="list-none md:flex text-white  pb-5 cursor-pointer ml-4">
                         <li class="mb-2 ml-2">About</li>
                         <li class="mb-2 ml-2">Features</li>
                         <li class="mb-2 ml-2">Pricing</li>
@@ -205,16 +205,16 @@
                         <li class="mb-2 ml-2">Privacy Policy</li>
                     </ul>
                 </div>
-                <div class="text-gray-600">
-                    <p>© 2020 bike. All rights reserved</p>
-                </div>
             </div>
-            <div class="py-20">
+            <div class="py-20 mr-4">
                 <p class="text-gray-700 mb-3">Get the App</p>
                 <img class="w-36 mb-3" src="./images/others/android.png" alt="">
                 <img class="w-36 mb-3" src="./images/others/ios.png" alt="">
             </div>
         </section>
+        <div class="text-gray-600 text-center">
+            <p>© 2020 bike. All rights reserved</p>
+        </div>
     </footer>
 </body>
 
